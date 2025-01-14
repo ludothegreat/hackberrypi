@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/6e5b6eec-9a0e-4c8c-be69-53cf709d8a99
 
-
+## Configure
 
 - pip install pillow
 - set paths to images
@@ -10,12 +10,12 @@ https://github.com/user-attachments/assets/6e5b6eec-9a0e-4c8c-be69-53cf709d8a99
 image_paths = [
     "/full/path/to/layer0.png",
     "/full/path/to/layer1.png",
-    "layer2.png"
+    "/full/path/to/layer2.png"
 ]
 ```
 - map to keyboard shorcut
 
-## Creating a Keyboard Shortcut in XFCE
+## Creating a Keyboard Shortcut in XFCE On Kali
 1. Open XFCE Keyboard Settings
 Go to Settings → Keyboard → Application Shortcuts.
 2. Add a New Shortcut
