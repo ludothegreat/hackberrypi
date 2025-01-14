@@ -15,7 +15,7 @@ layer_names = ["Layer 0", "Layer 1", "Layer 2"]
 
 images_cache = []
 current_index = 0
-MAX_SIZE = 720  # Window is 720x720
+MAX_SIZE = 720  # Hackberry -Pi_Zero window is 720x720
 
 def resize_to_fit(img, max_size=MAX_SIZE):
     """
@@ -75,7 +75,6 @@ def main():
     image_label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
     # Create the layer label and place it at the desired position
-    # Adjust x and y as needed to match your screenshot.
     layer_label = tk.Label(root, text="", font=("Arial", 16))
     layer_label.place(x=10, y=140)
 
