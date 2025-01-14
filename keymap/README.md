@@ -1,5 +1,9 @@
 
 
+https://github.com/user-attachments/assets/6e5b6eec-9a0e-4c8c-be69-53cf709d8a99
+
+
+
 - pip install pillow
 - set paths to images
 ```Python
